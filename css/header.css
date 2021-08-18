@@ -1,0 +1,52 @@
+main p {
+    color: skyblue !important;
+}
+
+.main-style h2 {
+    color: darkorchid;
+}
+.main-style li {
+    color: gold;
+}
+main > h2 {
+    color: black !important;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+.box:hover {
+    background-color: chartreuse;
+}
+.important-heading::before {
+content: "!!!";
+margin-right: 20px;
+}
+.important-heading::after {
+    content: "!!!";
+    margin-left: 20px;
+}
+.link-ps {
+    color: crimson;
+}
+.link-ps::before {
+    width: 20px;
+    height: 18px;
+    display: inline-block;
+    background: url("../images/play-button-icon.svg")no-repeat center;
+    content: "";
+}
+ul {
+    width: 200px;
+    background: #292929;
+    color: white;
+    list-style: none;
+    padding-left: 0px;
+   }
+   li {
+    padding: 10px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid #3c3c3c;
+   }
+   
